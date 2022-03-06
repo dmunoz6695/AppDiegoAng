@@ -16,6 +16,12 @@ import { SidenavComponent } from './sidenav/sidenav.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    HeaderComponent,
+    SidenavComponent,
+    MainComponent,
+    FooterComponent
   ]
 })
 export class ThemeModule { }
